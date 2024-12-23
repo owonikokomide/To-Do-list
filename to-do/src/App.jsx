@@ -5,7 +5,7 @@ function App(){
   const [newItem, setNewItem] = useState("");
   const [todos, setTodos] = useState(()=>{
     const localValue = localStorage.getItem("ITEMS")
-    if (localValue == null) return []
+    if (localValue == null) return [] 
     return JSON.parse(localValue)
   });
 
