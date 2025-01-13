@@ -9,7 +9,7 @@
 }
 .form-div{
   display: flex;
-  justify-content: center;
+  justify-content: center; 
 }
 form{
   width: 30%;
