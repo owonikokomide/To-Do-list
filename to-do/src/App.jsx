@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import './App.css'
 
-function App(){
+function App(){ 
   const [newItem, setNewItem] = useState("");
   const [todos, setTodos] = useState(()=>{
     const localValue = localStorage.getItem("ITEMS")
